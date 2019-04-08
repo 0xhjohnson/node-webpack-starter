@@ -1,0 +1,22 @@
+{
+  "name": "node-webpack-starter",
+  "version": "0.0.1",
+  "description": "Minimal nodejs webpack starterkit",
+  "main": "./src/index.js",
+  "repository": "https://github.com/0xhjohnson/node-webpack-starter",
+  "author": "Hunter Johnson <0xhjohnson@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "nodemon-webpack-plugin": "^4.0.8",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
