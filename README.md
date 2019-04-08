@@ -1,1 +1,1 @@
-# preme-o
+# Minimal nodejs webpack starterkit
